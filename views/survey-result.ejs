@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%=shop.shopName%></title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>Survey Results</h1>
+    <p>Thank you for completing the survey!</p>
+    <p>Here is a summary of your responses:</p>
+    <p>Full Name: <%= survey.first %> <%= survey.last %></p>
+    <p>Email Address: <%= survey.email %></p>
+    <p>Age: <%= survey.age %></p>
+    <p>Drink Category: <%= survey.category %></p>
+    <p>Student: <%= survey.student === "on" ? "Yes" : "No" %></p>
+  </body>
+</html>

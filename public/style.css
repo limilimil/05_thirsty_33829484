@@ -1,0 +1,56 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(235, 235, 231);
+  line-height: 1.5;
+  padding: 20px;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  margin-bottom: 15px;
+}
+
+.shop-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.shop-box {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fafafa;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.shop-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.shop-box h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.shop-box p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.survey div {
+  margin-bottom: 5px;
+}
+
+.survey section{
+  margin-bottom: 30px;
+}
